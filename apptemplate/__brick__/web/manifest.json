@@ -1,6 +1,6 @@
 {
-    "name": "apptemplate",
-    "short_name": "apptemplate",
+    "name": "{{app_name}}",
+    "short_name": "{{app_name}}",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
