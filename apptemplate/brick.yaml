@@ -1,0 +1,15 @@
+name: apptemplate
+description: This is used as a baseline template for future Flutter applications to get started quickly with an already understood structure.
+version: 0.1.0 # Version for changes to the template
+environment:
+  mason: ">=0.1.2 <0.2.0"
+
+vars:
+  app_name:
+    type: string
+    description: The app name in snake_case
+    prompt: What is the app name? (snake_case)
+  org:
+    type: string
+    description: The organization identifier
+    prompt: What is the org? (e.g. com.johndoe)
