@@ -1,0 +1,1 @@
+// This folder holds models that are app specific and used only for the app, conversions of data models from external services for app use. (ex: service user model -> app user model that is formatted for app use)

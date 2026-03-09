@@ -1,0 +1,2 @@
+// This folder holds the abstarct repositories that hold all the needed functions for the specific repo.
+// Abstracted so it can be implemented by any data source (API, local DB, etc) without affecting the rest of the codebase.

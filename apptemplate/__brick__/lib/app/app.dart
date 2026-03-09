@@ -1,0 +1,1 @@
+// Used as main entry for the app, wraps the app with necessary providers and sets up routing

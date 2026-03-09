@@ -1,0 +1,1 @@
+// This folder is used to create models that represent a data model from an external service (ex: user model from firebase, post model from a REST API, etc.)

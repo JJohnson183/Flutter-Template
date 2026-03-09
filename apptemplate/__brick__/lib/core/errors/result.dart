@@ -1,0 +1,1 @@
+// Used for all actions in the app to handle a success or failure result of an action

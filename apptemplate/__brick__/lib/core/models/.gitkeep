@@ -1,0 +1,2 @@
+// This folder is used to hold data to models that can be used wherever needed. 
+// (ex. event, eventId, read mode -> eventReadArgs model for navigation)

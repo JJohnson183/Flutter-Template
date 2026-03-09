@@ -1,0 +1,2 @@
+// Value objects are custom types with built in validation. 
+// (ex. Email type that verifies proper structure)

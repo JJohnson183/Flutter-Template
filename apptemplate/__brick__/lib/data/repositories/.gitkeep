@@ -1,0 +1,1 @@
+// This folder is used to implement the domain abstracted repositories with service specific logic. (ex: user auth repo that is implemented with firebase, supabase, etc.)

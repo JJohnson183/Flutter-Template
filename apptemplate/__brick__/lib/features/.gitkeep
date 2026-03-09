@@ -1,0 +1,7 @@
+// This folder holds all the views, viewmodels, and view specific widgets of the app. 
+// Structure:
+// - features/
+//   - feature_name/
+//     - views/
+//     - viewmodels/
+//     - widgets/

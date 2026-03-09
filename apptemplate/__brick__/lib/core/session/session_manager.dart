@@ -1,0 +1,1 @@
+// This file is used to manage user sessions to keep auth and other session related data in one place.
