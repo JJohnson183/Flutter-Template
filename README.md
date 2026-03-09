@@ -1,0 +1,2 @@
+# Flutter App Template
+This is a Flutter app template that can be used as a starting point for new Flutter projects. It includes a basic project structure and some common dependencies. It uses the Mason tool to generate the project files with the appropriate names and configurations.
