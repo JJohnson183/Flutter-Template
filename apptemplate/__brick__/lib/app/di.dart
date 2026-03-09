@@ -1,12 +1,16 @@
 // Used for dependency injection
 
 import 'package:get_it/get_it.dart';
+import 'package:{{app_name}}/core/widgets/global_loader.dart';
 
 final GetIt getIt = GetIt.instance;
 
 //================ Core Helper Registrations ================//
 // Used to register core helpers that are used across the app
 void _registerCoreHelpers() {
+  // Global Loader for app-wide loading states
+  getIt.registerLazySingleton<GlobalLoaderManager>(() => GlobalLoaderManager());
+  
   // Example: getIt.registerLazySingleton<ConnectivityService>(() => ConnectivityService());
 }
 
