@@ -2,6 +2,7 @@
 
 import 'package:flutter/material.dart';
 import 'package:get_it/get_it.dart';
+import 'package:{{app_name}}/core/widgets/global_snackbar.dart';
 import 'package:{{app_name}}/core/widgets/global_loader.dart';
 import 'router.dart';
 
@@ -16,6 +17,7 @@ class App extends StatelessWidget {
       title: '{{app_name}}',
       theme: ThemeData.light(),
       darkTheme: ThemeData.dark(),
+      scaffoldMessengerKey: GlobalSnackbar.snackbarKey, // Global key for showing snackbars from anywhere
       routerConfig: appRouter, // Imported from the router.dart file
       builder: (context, child) {
         return Stack(
