@@ -1,1 +1,17 @@
 // This folder is used to create models that represent a data model from an external service (ex: user model from firebase, post model from a REST API, etc.)
+
+
+// Example model:
+//
+// class UserModel {
+//   final String id;
+//   final String name;
+//   final String email; 
+//   
+//   UserModel({
+//     required this.id,
+//     required this.name,
+//     required this.email,
+//   });
+// }
+

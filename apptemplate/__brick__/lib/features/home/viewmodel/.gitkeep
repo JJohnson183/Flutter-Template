@@ -1,0 +1,14 @@
+// This folder holds viewmodels for the specific feature. 
+
+// Example:
+// class HomeViewModel extends BaseViewModel {
+//   HomeViewModel({required this.miscRepository});
+//   final MiscRepository miscRepository;
+//   
+//   final int data = 0;
+//
+//   Future<void> loadInitialData() async {
+//      data = await miscRepository.fetchData();
+//      ...
+//   }
+// }

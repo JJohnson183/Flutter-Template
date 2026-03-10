@@ -1,1 +1,23 @@
 // This folder is used to implement the domain abstracted repositories with service specific logic. (ex: user auth repo that is implemented with firebase, supabase, etc.)
+
+
+// Example:
+//
+// class UserAuthRepositoryImpl implements UserAuthRepository {
+//   final serviceAuth _serviceAuth;
+//
+//   UserAuthRepositoryImpl(this._serviceAuth);
+//
+//   @override
+//   Future<User> signIn(String email, String password) async {
+//     try {    
+//       final userCredential = await _serviceAuth.signInWithEmailAndPassword(
+//           email: email, 
+//           password: password
+//       );
+//       return userCredential.user;
+//     } catch (e) {
+//       throw Exception('Failed to sign in: $e');
+//     }
+//   }
+//}
