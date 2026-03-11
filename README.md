@@ -14,9 +14,15 @@ dart pub global activate mason_cli
 ### apptemplate
 The core Flutter app template. Generates a full project with Clean Architecture, MVVM, routing, dependency injection, and shared utilities pre-configured.
 
+**Clone the repo:**
+```bash
+git clone https://github.com/JJohnson183/Flutter-Template.git
+cd Flutter-Template
+```
+
 **Install globally:**
 ```bash
-mason add -g apptemplate --git-url https://github.com/JJohnson183/Flutter-Template.git --git-path apptemplate
+mason add -g apptemplate --path ./apptemplate
 ```
 
 **Generate a new app:**
@@ -33,3 +39,5 @@ You will be prompted for:
 cd ../your_app_name
 flutter pub get
 ```
+
+> **Note:** Once the [Mason git hook bug on Windows](https://github.com/felangel/mason/issues/1573) is resolved, installation will be possible directly from the git URL without cloning.

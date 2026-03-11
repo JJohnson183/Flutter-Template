@@ -17,3 +17,4 @@ pubspec.lock
 # Hooks generated files
 apptemplate/hooks/.dart_tool/
 apptemplate/hooks/build/
+apptemplate/hooks/pubspec.lock
